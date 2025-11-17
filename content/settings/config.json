@@ -1,0 +1,55 @@
+{
+  "detail_pages": [],
+  "branding": {
+    "footer_login": true
+  },
+  "content": {
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
+  "core_data": {
+    "url": "https://app.coredata.cloud",
+    "project_ids": [
+      "96"
+    ]
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+    }
+  ],
+  "search": [
+    {
+      "name": "places",
+      "route": "/places",
+      "geosearch": true,
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "28j3a16wpk5rtd4cp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "LywF75SZd6iTUfzu5Xgz7s8nkgOiauGS",
+        "index_name": "places",
+        "query_by": "name",
+        "default_sort": "name"
+      }
+    }
+  ]
+}
