@@ -30,7 +30,7 @@
   ],
   "search": [
     {
-      "name": "places",
+      "name": "Places",
       "route": "/places",
       "geosearch": true,
       "map": {
