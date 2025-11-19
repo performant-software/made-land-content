@@ -30,13 +30,17 @@
   ],
   "search": [
     {
-      "name": "Places",
+      "name": "places",
       "route": "/places",
       "geosearch": true,
       "map": {
         "geometry": "geometry",
         "max_zoom": 14,
         "zoom_to_place": true
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "2ff76f98-d562-4e00-9948-9980089d47fa"
       },
       "result_card": {
         "title": "name"

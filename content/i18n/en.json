@@ -5,5 +5,6 @@
   "t_root": "Items",
   "t_862fad2f272d42388ab41e724b7863fc": "Items",
   "t_index_items": "Items",
-  "t_index_events": "Events"
+  "t_index_events": "Events",
+  "t_index_places": "Places"
 }
