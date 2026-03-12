@@ -1,5 +1,4 @@
 {
-  "detail_pages": {},
   "branding": {
     "footer_login": true
   },
@@ -7,7 +6,10 @@
     "collections": [
       "paths",
       "posts"
-    ]
+    ],
+    "posts_config": {
+      "layout": "list"
+    }
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
@@ -15,6 +17,7 @@
       "96"
     ]
   },
+  "detail_pages": {},
   "i18n": {
     "default_locale": "en",
     "locales": [
@@ -38,18 +41,12 @@
         "max_zoom": 14,
         "zoom_to_place": true
       },
+      "result_card": {
+        "title": "name"
+      },
       "timeline": {
         "date_range_facet": "event_range_facet",
         "event_path": "2ff76f98-d562-4e00-9948-9980089d47fa"
-      },
-      "visualizations": [
-        {
-          "name": "events_by_year",
-          "path": "2ff76f98-d562-4e00-9948-9980089d47fa"
-        }
-      ],
-      "result_card": {
-        "title": "name"
       },
       "typesense": {
         "host": "28j3a16wpk5rtd4cp-1.a1.typesense.net",
